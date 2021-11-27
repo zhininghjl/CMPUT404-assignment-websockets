@@ -69,7 +69,7 @@ myWorld.add_set_listener( set_listener )
 @app.route('/')
 def hello():
     '''Return something coherent here.. perhaps redirect to /static/index.html '''
-    return redirect("/static/chat.html")
+    return redirect("/static/index.html")
 
 
 # reference: https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py
